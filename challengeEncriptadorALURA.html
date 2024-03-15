@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHALLENGE ENCRIPTADOR ALURA</title>
+    <link rel="stylesheet" href="reset">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<header>
+    <h1 class="header">ENCRIPTADOR DE TEXTOS</h1>
+</header>
+
+<body>
+    <div class="textoaencriptar">
+        <label class="lbintroducirtexto" id="hlbtexto">Introduzca el texto aqui</label>
+        <textarea type="text" class="areatextoaencriptar" id="tastart" onclick="clearlabel();"></textarea>
+        <label class="lbadvertencia">&#9888; Solo letras minusculas y sin acentos</label>
+        <button class="botonencriptar" id="encrypt" onclick="clearimage();">Encriptar</button>
+        <button class="botondesencriptar" id="decrypt">Desencriptar</button>
+    </div>
+    <div class="textofinal">
+        <textarea class="textoencriptado" id="tafinish"></textarea>
+
+        <button class="botoncopiar" id="copiartexto" onclick="copiartexto();">Copiar</button>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>

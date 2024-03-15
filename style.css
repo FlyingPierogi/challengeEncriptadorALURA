@@ -1,0 +1,251 @@
+.header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 3em auto;
+    background-color: #f2f4fb;
+}
+
+body{
+    width: 940px;
+    min-height: 100hv;
+    margin: 0 auto;
+    background-color: #f2f4fb;
+    font-family: "Montserrat", sans-serif;
+}
+
+.textoaencriptar{ /*div1*/
+    width: 60%;
+    float: left;
+    margin: 0 20px;
+    padding-top: 15px;
+}
+
+.lbintroducirtexto{
+    position: absolute;
+    font-size: 22px;
+    color:#0a3871;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.areatextoaencriptar{
+    background-color: #f2f4fb;
+    border: none;
+    width: 100%;
+    height: 450px;
+    margin-bottom: 1em;
+    font-size: 22px;
+    color:#0a3871;
+
+}
+
+.lbadvertencia{
+    text-align: center;
+    display: block;
+    margin: 10px 10px;
+    font-size: 12px;
+    color: gray;
+
+}
+
+.botonencriptar{
+    border:none;
+    background-color: #0a3871;
+    border-radius: 5px;
+    text-align: center;
+    float: left;
+    padding: 14px 28px;
+    font-size: 16px;
+    color:white;
+    margin-left: 100px;
+}
+
+.botondesencriptar{
+    border:none;
+    background-color: #a3b4ca;
+    border-radius: 5px;
+    text-align: center;
+    float: right;
+    padding: 14px 28px;
+    font-size: 16px;
+    margin-right: 100px;
+    color:#0a3871;
+}
+
+.textofinal{    /*div2*/
+    overflow: hidden;
+    width: 30%;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px 15px;
+
+}
+
+.textoencriptado{
+    border: none;
+    height: 450px;
+    width: 100%;
+    background-image: url("1.png"); /*creditos a pngtree por la imagen gratis*/
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    background-size: 100% 100%;
+    margin-bottom: 1em;
+    font-size: 22px;
+    color:grey;
+}
+
+
+.botoncopiar{
+        width:100%;
+        border:none;
+        background-color: #a3b4ca;
+        border-radius: 5px;
+        text-align: center;
+        padding: 14px 28px;
+        font-size: 16px;
+        margin-top: 35px;
+        color:#0a3871;
+
+}
+
+@media (max-width:320px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+
+    body{
+        margin: 30px;
+    }
+
+    .textoaencriptar{ /*div1*/
+        width: 100%;
+        margin: 0 20px;
+        padding-top: 15px;
+    }
+    
+    .areatextoaencriptar{
+        background-color: #f2f4fb;
+        border: none;
+        width: 90%;
+        height: 250px;
+        display: block;
+        margin: 0 auto;
+    
+    }
+
+    .lbintroducirtexto{
+
+        font-size: 32px;
+        text-wrap: nowrap;
+    }
+
+    .lbadvertencia{
+        text-align: left;
+        margin-left: 45px;
+    
+    }
+
+    .botonencriptar{
+        margin: 0 auto;
+        width:90%;
+        display: block;
+        float:none;
+    }
+
+    .botondesencriptar{
+        margin: 0 auto;
+        width:90%;
+        display: block;
+        float:none;
+    }
+    
+    .textofinal{    /*div2*/
+        overflow: hidden;
+        width: 100%;
+        border-radius: 10px;
+        background-color: white;
+        padding: 15px 15px;
+        margin: 20px 20px;
+    }
+
+    .textoencriptado{
+        background-size: contain;
+        background-position: center;
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .botoncopiar{
+        margin: 20px auto 0;
+        width:90%;
+        display: block;
+
+
+}
+}
+
+@media (max-width:480px) { /* smartphones, Android phones, landscape iPhone */
+
+    .textoaencriptar{ /*div1*/
+        width: 100%;
+        float: left;
+        margin: 0 20px;
+        padding-top: 15px;
+    }
+    
+    .botonencriptar{
+        margin-bottom: 15px;
+
+    }
+
+    .botondesencriptar{
+        margin-bottom: 15px;
+    }
+    
+    .textofinal{    /*div2*/
+        overflow: hidden;
+        width: 100%;
+        border-radius: 10px;
+        background-color: white;
+        padding: 15px 15px;
+        margin: 15px 15px;
+    }
+
+    .textoencriptado{
+        background-size: contain;
+        background-position: center;
+    }
+}
+
+@media (max-width:600px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+
+    .textoaencriptar{ /*div1*/
+        width: 100%;
+        float: left;
+        margin: 0 20px;
+        padding-top: 15px;
+    }
+    
+    .botonencriptar{
+        margin-bottom: 15px;
+
+    }
+
+    .botondesencriptar{
+        margin-bottom: 15px;
+    }
+    
+    .textofinal{    /*div2*/
+        overflow: hidden;
+        width: 100%;
+        border-radius: 10px;
+        background-color: white;
+        padding: 15px 15px;
+        margin: 15px 15px;
+    }
+
+    .textoencriptado{
+        background-size: contain;
+        background-position: center;
+    }
+}
